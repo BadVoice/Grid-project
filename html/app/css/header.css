@@ -1,7 +1,7 @@
 .header {
-    padding: 16px 0;
+    padding: 16px 135px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     box-shadow: 0 2px 4px rgba(38, 50, 56, 0.16), 0 4px 8px rgba(38, 50, 56, 0.08);
    
@@ -11,6 +11,7 @@
 .header__logo {
    display: flex;
    align-items: center;
+   
 }
 
 .header__btn {
@@ -30,10 +31,11 @@
 
 .header__nav {
     display: flex;
-    margin: 0 100px;
+    
+    
 }
 
-.nav__link  {
+.header__link  {
     text-decoration: none;
     color: var(--color-purple-dark);
     font-family: var( --font-family-r);
@@ -41,12 +43,12 @@
     transition: color var(--animation);
 }
 
-.nav_link:hover,
-.nav_link:focus{
+.header_nav:hover,
+.header_nav:focus{
     color: var(--color-purple-light) ;
 }
 
-.nav__link__active {
+.header__nav__active {
     
     color: var(--color-black);
     font-family: var(--font-family-b-700);
@@ -54,7 +56,7 @@
    
 }
 
-.nav__link__point {
+.header__nav__point {
     background: var(--color-yellow-dark);
     align-items: center;
     text-align: center;
@@ -65,7 +67,8 @@
     align-self: center;
 }
 
-.nav__link__point:last-child {
+.header__nav__point:last-child {
     margin-right: 0px;
 }
+
 

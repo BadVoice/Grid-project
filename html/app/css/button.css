@@ -14,7 +14,7 @@
     background: var(--color-purple-dark);
     color: var(--color-white);
     border: none;
-    
+    text-align: center;
 }
 
 .primary__btn__corner {
@@ -45,3 +45,9 @@
     border: 1px solid var(--color-gray-24);
 }
 
+.main__btn{
+    width: 270px;
+    height: 82px;
+    text-align: center;
+}
+    
