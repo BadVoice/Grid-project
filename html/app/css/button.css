@@ -48,6 +48,19 @@
 .main__btn{
     width: 270px;
     height: 82px;
-    text-align: center;
-}
     
+}
+
+.--dark {
+    background: var(--color-purple-dark);
+    color: var(--color-white);
+    border: 1px solid var(--color-purple-dark);
+    transition: color var(--animation), border-color var(--animation);
+}
+
+.--dark:hover {
+    background: var(--color-purple-light);
+    color: var(--color-white);
+    border: 1px solid var(--color-purple-light);
+    transition: background var(--animation);
+}
