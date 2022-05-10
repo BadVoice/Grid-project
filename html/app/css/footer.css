@@ -1,0 +1,111 @@
+.footer {
+    padding-top: 160px;
+    width: 100%;
+    background: url('../images/background/Wave.svg') no-repeat bottom;
+    height: 526px;
+    background-size: contain;
+}
+
+
+.social__title__follow{
+    margin: 0;
+    font-size:12px;
+    color: var(--color-gray-32);
+    font-family: var(--font-family-b-800);
+    letter-spacing: 2.5px;
+}
+
+.social__icon {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 999px;
+    text-align: center;
+    transition: background var(--animation);
+}
+.social__icon:hover {
+    content: '';
+    background-color: var(--color-yellow-light);
+    cursor: pointer;
+}   
+
+
+.social__follow {
+    display: flex;
+    flex-direction: column;
+    max-width: 275px;
+}
+
+.social__media {
+    display: flex;
+    gap: 37px;
+    padding-top: 8px;
+}
+
+.social__title__inf {
+    font-size: 12px;
+    color: var(--color-gray-32);
+    font-family: var(--font-family-b-800);
+    letter-spacing: 2.5px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+
+.social__inf__block {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 16px;
+    grid-template-rows: repeat(3, auto);
+    justify-content: start
+}
+
+/* .social__inf__list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.social__inf__item {
+    width: 170px;
+    height: 24px;
+} */
+
+
+.social__media a  {
+    outline: none;
+    text-decoration: none;
+}
+
+.social__media a:focus img {
+    background-color: var(--color-yellow-light);
+}
+
+.social__inf__link span {
+    color: var(--color-black);
+    font-size: 14px;
+    font-family: var(--font-family-r);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color var(--animation);
+}
+
+.social__inf__link span:hover,
+.social__inf__link span:focus
+ {
+   content: '';
+    text-decoration: none;
+    border-color: var(--color-black);
+}
+
+.social__inf__link{
+    text-decoration: none;
+}

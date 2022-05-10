@@ -299,7 +299,7 @@ button.about__btn {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     gap: 30px;
-    margin-bottom: 200px;
+    
 }
 
 .services__col__option {
@@ -315,16 +315,18 @@ button.about__btn {
     padding: 32px;
     margin: 32px;
     position: relative;
-    transition: background var(--animation);
+    
+    z-index: 1;
 }
 
-.services__container:hover{
+.services__container:hover {
     filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12)) drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
     background: var(--color-white);
     border-radius: 16px;
-    transition: background var(--animation);
-
+    
+    z-index: 1;
 }
+
 
 .services__col__component {
     display: flex;
@@ -368,6 +370,7 @@ button.about__btn {
     bottom:10%; 
     position: absolute;
     margin: 0 auto;
+    color: var(--color-white);
 }
 
 .services__col__heat {
@@ -380,4 +383,63 @@ button.about__btn {
     min-width: 90px;
     min-height: 32px;
 }
+
+.services__subtitle span {
+    position: relative;
+    color: var(--color-purple-dark);
+    width: 165px;
+    height: 51px;
+    
+}
+
+.services__subtitle span::after {
+    content: '';
+    display: block;
+    left: -5%;
+    bottom: 0;
+    width: 110%;
+    height: 12px;
+    border-radius: 999px;
+    background-color:  var(--color-yellow-dark);
+    position: absolute;
+    z-index: -3;
+   
+}
+
+.services__col {
+    position: relative;
+}
+
+
+
+.services__col::after{
+    
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 200px;
+    height: 130px;
+    background: url('../images/background/Wiggle.svg') no-repeat center;
+    opacity: 0;
+    transition:  transform var(--animation);
+    transform: translate(30px, -30px);
+    z-index: -3;
+}
+
+.services__col:hover::after {
+    opacity: 1;
+    transform: translate(0, -0);
+}
+
+.services__col:hover .services__container { 
+
+    filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12)) drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
+    background: var(--color-white);
+    border-radius: 16px;
+    z-index: 1;
+    
+}
+
 
