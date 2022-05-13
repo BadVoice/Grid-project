@@ -311,7 +311,7 @@ button.about__btn {
 
 .services__container {
     min-width: 306px;
-    min-height: 472px;
+    min-height: 536px;
     padding: 32px;
     margin: 32px;
     position: relative;
@@ -367,9 +367,9 @@ button.about__btn {
     min-height: 64px;
     bottom: 0;
     font-size: 18px;
-    bottom:10%; 
+    
     position: absolute;
-    margin: 0 auto;
+   bottom: 32px;
     color: var(--color-white);
 }
 
