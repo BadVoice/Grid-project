@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,182 +8,184 @@
     <link rel="stylesheet" href="../app/css/style.css">
     <title>Grid</title>
 </head>
+
 <body>
     <header class="header">
-        
+
         <div class="header__logo">
+            <img class="header__burger__menu" src="../app/images/icons/icon-menu.svg" alt="logo">
             <img class="header__logo__img" src="../app/images/icons/icon-layout.svg" alt="logo">
             <span class="header__logo__title">Grid</span>
         </div>
 
         <nav class="header__nav">
-            <span class="header__nav__active">How it works</span>
+            <a data-goto=".main" href="#" class="header__link">How it works</a>
             <div class="header__nav__point"></div>
-            <a class="header__link" href="#">Who we are</a>
+            <a data-goto=".about" class="header__link" href="#">Who we are</a>
             <div class="header__nav__point"></div>
-            <a class="header__link" href="#">What we do</a>
+            <a data-goto=".services" class="header__link" href="#">What we do</a>
             <div class="header__nav__point"></div>
-            <a class="header__link" href="#">Contact us</a>
-            <div class="header__nav__point""></div>
+            <a data-goto=".footer" class="header__link" href="#">Contact us</a>
+            <div class="header__nav__point" "></div>
         </nav>
 
-        <button class="primary__btn__corner header__btn">Sign in</button>
+        <button class="primary__btn__corner header__btn ">Sign in</button>
     
     </header>
 
-    <main class="main">
-        <img class="main__background__rectangle" src="../app/images/background/Rectangle.svg" alt="background">
-        <img class="main__background__dots" src="../app/images/background/Dots 1.svg" alt="background">
-        <div class="main__text">
-            <p class="main__text__title">Combine <span>fine</span> images</p>
-            <p class="main__text__subtitle">To represent a product</p>
+   <main class="main ">
+        <img class="main__background__rectangle " src="../app/images/background/Rectangle.svg " alt="background ">
+        <img class="main__background__dots " src="../app/images/background/Dots 1.svg " alt="background ">
+        <div class="main__text ">
+            <p class="main__text__title ">Combine <span>fine</span> images</p>
+            <p class="main__text__subtitle ">To represent a product</p>
         </div>
 
 
-        <div class="main__grid">
-            <div class="main__grid__text1">
+        <div class="main__grid ">
+            <div class="main__grid__text1 ">
                 Use mixed grid with imagery,<br> replace with your own photos <br> and descriptions
             </div>
-            <div class="main__grid__text2">
+            <div class="main__grid__text2 ">
                 This is multipurpose grid, it fits for <br> portfolio, services or agency web site
             </div>  
 
-            <div class="main__grid__text3">
+            <div class="main__grid__text3 ">
                 We aimed to deliver HQ <br> templates for Figma <br>
                <span> Used by 123 people</span>
             </div>  
 
-            <img class="main__grid__img" src="../app/images/photo/Image.png" alt="image1">
-            <img class="main__grid__img2" src="../app/images/photo/Image2.png" alt="Image2">
-            <img class="main__grid__img3" src="../app/images/photo/Image3.png" alt="Image3">
-            <img class="main__grid__img4" src="../app/images/photo/Image4.png" alt="Image4">
-            <img class="main__grid__img5" src="../app/images/photo/Image5.png" alt="Image5">
-            <img class="main__grid__img6" src="../app/images/photo/Image6.png" alt="Image6">
-            <img class="main__grid__img7" src="../app/images/photo/Image7.png" alt="Image7">
+            <img class="main__grid__img " src="../app/images/photo/Image.png " alt="image1 ">
+            <img class="main__grid__img2 " src="../app/images/photo/Image2.png " alt="Image2 ">
+            <img class="main__grid__img3 " src="../app/images/photo/Image3.png " alt="Image3 ">
+            <img class="main__grid__img4 " src="../app/images/photo/Image4.png " alt="Image4 ">
+            <img class="main__grid__img5 " src="../app/images/photo/Image5.png " alt="Image5 ">
+            <img class="main__grid__img6 " src="../app/images/photo/Image6.png " alt="Image6 ">
+            <img class="main__grid__img7 " src="../app/images/photo/Image7.png " alt="Image7 ">
         </div>
-        <button class="main__btn  primary__btn__corner">
+        <button class="main__btn primary__btn__corner ">
             Learn more
         </button>
     </main>
-    <section class="about">
-        <div class="container">
-            <div class="about__title">
+   <!-- <section class="about ">
+        <div class="container ">
+            <div class="about__title ">
                 Delivering good designs since 1954 🚚💨
             </div>
-            <div class="about__descr">We&rsquo;re the first multi-purpose design kit solutions for businesses. We&nbsp;help you bridge&nbsp;
+            <div class="about__descr ">We&rsquo;re the first multi-purpose design kit solutions for businesses. We&nbsp;help you bridge&nbsp;
                 gaps between your layouts, templates and developers to&nbsp;empower all involved.</div>
-                <div class="about__grid">
-            <div class="about__col">
-                <div class="about__circle">
-                <img class="about__icon" src="../app/images/icons/phone.svg" alt="icons">
+                <div class="about__grid ">
+            <div class="about__col ">
+                <div class="about__circle ">
+                <img class="about__icon " src="../app/images/icons/phone.svg " alt="icons ">
             </div>
-                <h2 class="about__col__title">Support</h2>
-                <p class="about__col__descr">Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <h2 class="about__col__title ">Support</h2>
+                <p class="about__col__descr ">Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
                 <button class="about__btn default__btn ">Learn more</button>
             </div>
-            <div class="about__col">
-                <div class="about__circle blue">
-                <img class="about__icon" src="../app/images/icons/icon-pie-chart.svg" alt="icons">
+            <div class="about__col ">
+                <div class="about__circle blue ">
+                <img class="about__icon " src="../app/images/icons/icon-pie-chart.svg " alt="icons ">
             </div>
-                <h2 class="about__col__title">Sales growth</h2>
-                <p class="about__col__descr">Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
+                <h2 class="about__col__title ">Sales growth</h2>
+                <p class="about__col__descr ">Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
                 <button class="about__btn default__btn ">Learn more</button>
             </div>
-            <div class="about__col">
-                <div class="about__circle purple">
-                <img class="about__icon" src="../app/images/icons/icon-zap.svg" alt="icons">
+            <div class="about__col ">
+                <div class="about__circle purple ">
+                <img class="about__icon " src="../app/images/icons/icon-zap.svg " alt="icons ">
             </div>
-                <h2 class="about__col__title">Coponents-driven</h2>
-                <p class="about__col__descr">Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <h2 class="about__col__title ">Coponents-driven</h2>
+                <p class="about__col__descr ">Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
                 <button class="about__btn default__btn ">Learn more</button>
             </div>
-            <div class="about__col">
-                <div class="about__circle green">
-                <img class="about__icon" src="../app/images/icons/icon-thumbs-up.svg" alt="icons">
+            <div class="about__col ">
+                <div class="about__circle green ">
+                <img class="about__icon " src="../app/images/icons/icon-thumbs-up.svg " alt="icons ">
             </div>
-                <h2 class="about__col__title">Swap the icon</h2>
-                <p class="about__col__descr">You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
+                <h2 class="about__col__title ">Swap the icon</h2>
+                <p class="about__col__descr ">You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
                 <button class="about__btn default__btn ">Learn more</button>
             </div>
         </div>
         </div>
     </section>
 
-    <section class="services">
-        <div class="container">
-            <div class="services__title">Affordable pricing</div>
-            <div class="services__subtitle">Bill me <span>monthly</span> • yearly</div>
-            <div class="services__grid">
-                <div class="services__col">
-                    <div class="services__container">
-                    <p class="services__col__option">Student</p>
-                    <p class="services__col__title">Free  <span>/ FOREVER</span></p>
-                    <div class="services__col__component">
+    <section class="services ">
+        <div class="container ">
+            <div class="services__title ">Affordable pricing</div>
+            <div class="services__subtitle ">Bill me <span>monthly</span> • yearly</div>
+            <div class="services__grid ">
+                <div class="services__col ">
+                    <div class="services__container ">
+                    <p class="services__col__option ">Student</p>
+                    <p class="services__col__title ">Free  <span>/ FOREVER</span></p>
+                    <div class="services__col__component ">
                         
-                        <img class="services__col__icons" src="../app/images/icons/Acrylic-grey.svg" alt="Acrylic-grey">
-                        <p class="services__col__descr">Components-driven system</p>
+                        <img class="services__col__icons " src="../app/images/icons/Acrylic-grey.svg " alt="Acrylic-grey ">
+                        <p class="services__col__descr ">Components-driven system</p>
                     </div>
-                    <div class="services__col__component">
-                        <img class="services__col__icons" src="../app/images/icons/Acrylic-grey.svg" alt="Acrylic-grey">
-                        <p class="services__col__descr">Sales-boosting landing pages</p>
+                    <div class="services__col__component ">
+                        <img class="services__col__icons " src="../app/images/icons/Acrylic-grey.svg " alt="Acrylic-grey ">
+                        <p class="services__col__descr ">Sales-boosting landing pages</p>
                     </div>
-                    <div class="services__col__component">
-                        <img class="services__col__icons" src="../app/images/icons/Acrylic-grey.svg" alt="Acrylic-grey">
-                        <p class="services__col__descr">Awesome Feather icons pack</p>
+                    <div class="services__col__component ">
+                        <img class="services__col__icons " src="../app/images/icons/Acrylic-grey.svg " alt="Acrylic-grey ">
+                        <p class="services__col__descr ">Awesome Feather icons pack</p>
                     </div>
-                    <button class="services__btn default__btn">Try for free</button>
+                    <button class="services__btn default__btn ">Try for free</button>
                     
                 </div>
               </div>
-              <div class="services__col">
-                <div class="services__container">
-                    <div class="services__col__heat">
-                <p class="services__col__option">👤 Individual</p>
-                <img class="services__icon__heat" src="../app/images/icons/Alpha.svg" alt="heat">
+              <div class="services__col ">
+                <div class="services__container ">
+                    <div class="services__col__heat ">
+                <p class="services__col__option ">👤 Individual</p>
+                <img class="services__icon__heat " src="../app/images/icons/Alpha.svg " alt="heat ">
             </div>
-                <p class="services__col__title">24$ <span>/ month</span></p>
-                <div class="services__col__component">
+                <p class="services__col__title ">24$ <span>/ month</span></p>
+                <div class="services__col__component ">
                     
-                    <img class="services__col__icons" src="../app/images/icons/Acrylic-yellow.svg" alt="Acrylic-grey">
-                    <p class="services__col__descr">Components-driven system</p>
+                    <img class="services__col__icons " src="../app/images/icons/Acrylic-yellow.svg " alt="Acrylic-grey ">
+                    <p class="services__col__descr ">Components-driven system</p>
                 </div>
-                <div class="services__col__component">
-                    <img class="services__col__icons" src="../app/images/icons/Acrylic-yellow.svg" alt="Acrylic-grey">
-                    <p class="services__col__descr">Sales-boosting landing pages</p>
+                <div class="services__col__component ">
+                    <img class="services__col__icons " src="../app/images/icons/Acrylic-yellow.svg " alt="Acrylic-grey ">
+                    <p class="services__col__descr ">Sales-boosting landing pages</p>
                 </div>
-                <div class="services__col__component">
-                    <img class="services__col__icons" src="../app/images/icons/Acrylic-yellow.svg" alt="Acrylic-grey">
-                    <p class="services__col__descr">Awesome Feather icons pack</p>
+                <div class="services__col__component ">
+                    <img class="services__col__icons " src="../app/images/icons/Acrylic-yellow.svg " alt="Acrylic-grey ">
+                    <p class="services__col__descr ">Awesome Feather icons pack</p>
                 </div>
-                <div class="services__col__component">
-                    <img class="services__col__icons" src="../app/images/icons/Acrylic-yellow.svg" alt="Acrylic-grey">
-                    <p class="services__col__descr">Themed into 3 different styles</p>
+                <div class="services__col__component ">
+                    <img class="services__col__icons " src="../app/images/icons/Acrylic-yellow.svg " alt="Acrylic-grey ">
+                    <p class="services__col__descr ">Themed into 3 different styles</p>
                 </div>
-                <div class="services__col__component">
-                    <img class="services__col__icons" src="../app/images/icons/Acrylic-yellow.svg" alt="Acrylic-grey">
-                    <p class="services__col__descr">Will help to learn Figma</p>
+                <div class="services__col__component ">
+                    <img class="services__col__icons " src="../app/images/icons/Acrylic-yellow.svg " alt="Acrylic-grey ">
+                    <p class="services__col__descr ">Will help to learn Figma</p>
                 </div>
-                <button class="services__btn default__btn --dark">Regular license</button>
+                <button class="services__btn default__btn --dark ">Regular license</button>
             </div>
           </div>
-          <div class="services__col">
-            <div class="services__container">
-            <p class="services__col__option">👥 Corporate</p>
-            <p class="services__col__title">12$  <span>/ editor</span></p>
-            <div class="services__col__component">
+          <div class="services__col ">
+            <div class="services__container ">
+            <p class="services__col__option ">👥 Corporate</p>
+            <p class="services__col__title ">12$  <span>/ editor</span></p>
+            <div class="services__col__component ">
                 
-                <img class="services__col__icons" src="../app/images/icons/Acrylic-green.svg" alt="Acrylic-grey">
-                <p class="services__col__descr">Components-driven system</p>
+                <img class="services__col__icons " src="../app/images/icons/Acrylic-green.svg " alt="Acrylic-grey ">
+                <p class="services__col__descr ">Components-driven system</p>
             </div>
-            <div class="services__col__component">
-                <img class="services__col__icons" src="../app/images/icons/Acrylic-green.svg" alt="Acrylic-grey">
-                <p class="services__col__descr">Sales-boosting landing pages</p>
+            <div class="services__col__component ">
+                <img class="services__col__icons " src="../app/images/icons/Acrylic-green.svg " alt="Acrylic-grey ">
+                <p class="services__col__descr ">Sales-boosting landing pages</p>
             </div>
-            <div class="services__col__component">
-                <img class="services__col__icons" src="../app/images/icons/Acrylic-green.svg" alt="Acrylic-grey">
-                <p class="services__col__descr">Awesome Feather icons pack</p>
+            <div class="services__col__component ">
+                <img class="services__col__icons " src="../app/images/icons/Acrylic-green.svg " alt="Acrylic-grey ">
+                <p class="services__col__descr ">Awesome Feather icons pack</p>
             </div>
-            <button class="services__btn default__btn">Extended license</button>
+            <button class="services__btn default__btn ">Extended license</button>
         </div>
       </div>
             </div>
@@ -190,65 +193,65 @@
 
     </section>
 
-   <footer class="footer">
-    <div class="container">
-        <div class="social">
-            <div class="social__follow">
-                <h3 class="social__title__follow">FOLLOW US</h3>
-                <div class="social__media">
-                    <a class="social__icon__link" href="#"> <img class="social__icon" src="../app/images/icons/icon-facebook.svg" alt="facebook"></a>
-                   <a href="" class="social__icon__link">
-                    <img class="social__icon" src="../app/images/icons/icon-linkedin.svg" alt="facebook">
+   <footer class="footer ">
+    <div class="container ">
+        <div class="social ">
+            <div class="social__follow ">
+                <h3 class="social__title__follow ">FOLLOW US</h3>
+                <div class="social__media ">
+                    <a class="social__icon__link " href="# "> <img class="social__icon " src="../app/images/icons/icon-facebook.svg " alt="facebook "></a>
+                   <a href=" " class="social__icon__link ">
+                    <img class="social__icon " src="../app/images/icons/icon-linkedin.svg " alt="facebook ">
                    </a>
-                   <a href="" class="social__icon__link">
-                    <img class="social__icon" src="../app/images/icons/icon-slack.svg" alt="facebook">  
+                   <a href=" " class="social__icon__link ">
+                    <img class="social__icon " src="../app/images/icons/icon-slack.svg " alt="facebook ">  
                 </a>
-                <a href="" class="social__icon__link">
-                    <img class="social__icon" src="../app/images/icons/icon-twitter.svg" alt="facebook">
+                <a href=" " class="social__icon__link ">
+                    <img class="social__icon " src="../app/images/icons/icon-twitter.svg " alt="facebook ">
                 </a>
                 </div>
             </div>
-            <div class="social__inf">
-                <h3 class="social__title__inf">INFORMATION</h3>
-                <div class="social__inf__block">
+            <div class="social__inf ">
+                <h3 class="social__title__inf ">INFORMATION</h3>
+                <div class="social__inf__block ">
                     
-                        <a class="social__inf__link" href="#" ><span>Fapster app</span></a>
-                        <a class="social__inf__link" href="#" ><span>Get in Touch</span></a>
-                        <a class="social__inf__link" href="#" ><span>Things We Like</span></a>
-                        <a class="social__inf__link" href="#" ><span>Onhovered / Active</span></a>
-                        <a class="social__inf__link" href="#" ><span>Privacy Polic</span>y</a>
-                        <a class="social__inf__link" href="#" ><span>Terms of Service</span></a>
-                       <a class="social__inf__link" href="#" ><span>We are hiring!</span></a>
-                        <a class="social__inf__link" href="#" ><span>Resources</span></a>
+                        <a class="social__inf__link " href="# " ><span>Fapster app</span></a>
+                        <a class="social__inf__link " href="# " ><span>Get in Touch</span></a>
+                        <a class="social__inf__link " href="# " ><span>Things We Like</span></a>
+                        <a class="social__inf__link " href="# " ><span>Onhovered / Active</span></a>
+                        <a class="social__inf__link " href="# " ><span>Privacy Polic</span>y</a>
+                        <a class="social__inf__link " href="# " ><span>Terms of Service</span></a>
+                       <a class="social__inf__link " href="# " ><span>We are hiring!</span></a>
+                        <a class="social__inf__link " href="# " ><span>Resources</span></a>
                     
                 </div>
             </div>
         </div>
-        <div class="footer__forms">
-        <div class="footer__forms__follow">
-            <h3 class="footer__forms__title">FOLLOW US</h3>
-            <span class="footer__forms__email">hello@fapsterapp.com</span>
+        <div class="footer__forms ">
+        <div class="footer__forms__follow ">
+            <h3 class="footer__forms__title ">FOLLOW US</h3>
+            <span class="footer__forms__email ">hello@fapsterapp.com</span>
         </div>
 
-        <div class="footer__forms__feedback">
-            <h3 class="footer__forms__secondtitle">KEEP AND TOUCH</h3>
-            <form action="" class="footer__forms__fields">
-                <div class="footer__forms__input">
-                    <label class="footer__name__input__container">
-                            <input type="text" placeholder="Your name" />
+        <div class="footer__forms__feedback ">
+            <h3 class="footer__forms__secondtitle ">KEEP AND TOUCH</h3>
+            <form action=" " class="footer__forms__fields ">
+                <div class="footer__forms__input ">
+                    <label class="footer__name__input__container ">
+                            <input type="text " placeholder="Your name " />
                             <div></div>             
                     </label>
-                    <label class="footer__email__input__container"> <input type="text" placeholder="E-mail"/>
+                    <label class="footer__email__input__container "> <input type="text " placeholder="E-mail "/>
                         <div></div>
                     </label>
                 </div>
-                <div class="footer__forms__btn">
+                <div class="footer__forms__btn ">
 
-                    <label for="" class="feedback__textarea__container">
-                    <textarea name="" placeholder="Leave your message|"></textarea>
+                    <label for=" " class="feedback__textarea__container ">
+                    <textarea name=" " placeholder="Leave your message| "></textarea>
                     <div></div>
                 </label>
-                <button type="button" class="primary__btn">SEND</button>
+                <button type="button " class="primary__btn ">SEND</button>
                 </div>
             </form>
         </div>
@@ -256,7 +259,7 @@
     </div>
 
    </footer>
-
-    <script> </script>
+--> 
+    <script src="js/script.js "> </script>
 </body>
 </html>
